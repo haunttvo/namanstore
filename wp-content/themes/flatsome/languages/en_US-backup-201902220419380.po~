@@ -1,16 +1,15 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Flatsome v2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-22 02:22+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: admin <tommyvedvik@gmail.com>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2019-02-22 02:15+0000\n"
+"PO-Revision-Date: 2019-02-22 04:19+0000\n"
+"Last-Translator: admin <sohuyn1996@gmail.com>\n"
+"Language-Team: English (United States)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-Country: UNITED STATES\n"
@@ -21,7 +20,8 @@ msgstr ""
 "X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes\n"
-"Language: "
+"Language: en_US\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
 
 #: 404.php:22
 msgid "Oops! That page can&rsquo;t be found."
@@ -254,25 +254,19 @@ msgstr ""
 
 #: inc/custom-css.php:176
 msgid "New"
-msgstr ""
+msgstr "Mới"
 
 #: inc/woocommerce/tempalte-tags-global:36
 msgid "Home"
 msgstr ""
 
-#: inc/structure/structure-portfolio.php:50
-msgctxt "breadcrumb"
-msgid "Home"
-msgstr ""
-
 #: inc/custom-css.php:177
 msgid "Hot"
-msgstr ""
+msgstr "Bán chạy"
 
 #: inc/custom-css.php:178
-msgctxt "Giảm Giá"
 msgid "Sale"
-msgstr ""
+msgstr "Giảm giá"
 
 #: inc/custom-css.php:179
 msgid "Popular"
@@ -435,10 +429,6 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: searchform.php:11
-msgid "Search"
-msgstr ""
-
 #: inc/widgets/recent-posts.php:41
 msgid "Recent Posts"
 msgstr ""
@@ -479,11 +469,11 @@ msgstr ""
 
 #: page-checkout.php:17 page-checkout.php:28
 msgid "Shopping Cart"
-msgstr ""
+msgstr "Giỏ hàng"
 
 #: page-checkout.php:19 page-checkout.php:30
 msgid "Checkout details"
-msgstr ""
+msgstr "Chi tiết thanh toán"
 
 #: page-checkout.php:21 page-checkout.php:32
 msgid "Order Complete"
@@ -493,51 +483,6 @@ msgstr ""
 msgid "Login / Register with <strong>Facebook</strong>"
 msgstr ""
 
-#: woocommerce/myaccount/header.php:33
-msgid "Login with <strong>Facebook</strong>"
-msgstr ""
-
-#: woocommerce/myaccount/header.php:42
-msgid "Login with <strong>Google</strong>"
-msgstr ""
-
 #: content-product.php:61 woocommerce/content-product.php:61
 msgid "Quick View"
-msgstr ""
-
-#: structure-wc-product-page.php:149 woocommerce/content-product.php:149
-msgid "Zoom"
-msgstr ""
-
-#: structure-wc-global.php:280 inc/woocommerce/structure-wc-global.php:280
-msgid "Posts found"
-msgstr ""
-
-#: structure-wc-global.php:281 inc/woocommerce/structure-wc-global.php:281
-msgid "Pages found"
-msgstr ""
-
-#: structure-wc-global.php:139 inc/shortcodes/portfolio.php:139
-msgid "All"
-msgstr ""
-
-#: flatsome-live-search.php:129 inc/shortcodes/portfolio.php:129
-msgid "No matches found"
-msgstr ""
-
-msgid "Video"
-msgstr ""
-
-msgid "Contact"
-msgstr ""
-
-msgid "Location"
-msgstr ""
-
-#: inc/extensions/flatsome-infinite-scroll/templates/button.php:2
-msgid "View more"
-msgstr ""
-
-#: template-parts/header/partials/element-menu-icon.php:8
-msgid "Menu"
-msgstr ""
+msgstr "Xem Nhanh"
