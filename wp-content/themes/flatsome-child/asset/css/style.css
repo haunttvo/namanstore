@@ -12,3 +12,18 @@
     border-radius: 0;
     border: 1px solid rgba(0,0,0,0.7);
 }
+.ul_info_us{
+    margin-bottom: 20px;
+}
+.ul_info_us li{
+    position: relative;
+}
+.ul_info_us li i{
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.ul_info_us li p{
+    margin-left: 26px;
+    margin-bottom: 0;
+}
