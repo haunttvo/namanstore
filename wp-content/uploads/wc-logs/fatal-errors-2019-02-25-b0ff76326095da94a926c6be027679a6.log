@@ -1,0 +1,6 @@
+2019-02-25T04:20:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\namanstore\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-02-25T08:29:40+00:00 CRITICAL Cannot redeclare __return_empty_array() (previously declared in C:\xampp\htdocs\namanstore\wp-includes\functions.php:5009) in C:\xampp\htdocs\namanstore\wp-content\themes\flatsome-child\functions.php on line 68
+
+2019-02-25T08:29:49+00:00 CRITICAL Cannot redeclare __return_empty_array() (previously declared in C:\xampp\htdocs\namanstore\wp-includes\functions.php:5009) in C:\xampp\htdocs\namanstore\wp-content\themes\flatsome-child\functions.php on line 68
+

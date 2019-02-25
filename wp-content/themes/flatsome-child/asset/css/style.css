@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/hel/HelveticaNeue.otf');
+}
+@font-face {
+    font-family: 'Avo';
+    src: url('../fonts/avo/utm-avo.ttf');
+}
+body{
+    font-family:  "Avo", sans-serif !important;
+    font-size: 14px;
+}
+.alt-font{
+    font-family:  "Avo", sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6, .heading-font{font-family: "Avo", sans-serif !important; }
+h1.product-title{
+    font-size: 1.3em;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+}
+.nav > li > a {font-family:  "Avo", sans-serif !important; }
 .woo-variation-swatches-stylesheet-enabled .variable-items-wrapper .variable-item:not(.radio-variable-item).selected{
     border-radius: 0;
     box-shadow: none !important;
@@ -11,6 +35,9 @@
     box-shadow: none !important;
     border-radius: 0;
     border: 1px solid rgba(0,0,0,0.7);
+}
+.header-wrapper{
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
 }
 .ul_info_us{
     margin-bottom: 20px;
@@ -26,4 +53,68 @@
 .ul_info_us li p{
     margin-left: 26px;
     margin-bottom: 0;
+}
+
+
+.ul_info_us_header{
+    margin-bottom: 20px;
+}
+.ul_info_us_header li{
+    position: relative;
+    list-style-type: none;
+}
+.ul_info_us_header li i{
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.ul_info_us_header li p{
+    margin-left: 26px;
+    margin-bottom: 0;
+}
+span.widget-title{
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+.widget li{
+    font-size: 14px;
+    color: #fff;
+}
+.dark .form-flat input:not([type="submit"]){
+    font-size: 14px;
+}
+input[type='submit'], input[type='submit'].button, input[type='submit']{
+    font-size: 14px;
+}
+.absolute-footer.dark{
+    color: #fff !important;
+}
+.woocommerce-breadcrumb,.shop-page-title.category-page-title{
+    font-size: 14px !important;   
+}
+.checkout-page-title{
+    display: none;
+}
+.single.single-product .product-container .product-footer > .container{
+    display: flex;
+    align-items: end;
+}
+.single.single-product .product-footer > .container > .woocommerce-tabs{
+    flex: 4;   
+}
+.single.single-product .product-footer > .container > .related{
+    flex: 1;
+}
+.product-section-title{
+    font-size: 15px;
+}
+@media (min-width:981px){
+    .single.single-product .product-footer > .container > .woocommerce-tabs{
+        margin-right: 24px;   
+    }
+}
+@media (max-width:980px){
+    .single.single-product .product-footer > .container{
+        flex-flow: column;
+    }
 }

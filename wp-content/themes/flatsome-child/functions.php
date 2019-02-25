@@ -39,3 +39,34 @@ function fn_info_us(){
     return $context;
 }
 add_shortcode('info_us', 'fn_info_us');
+
+function fn_info_us_header(){
+    ob_start();
+    ?>
+    <div class="info_us_header">
+        <ul class="ul_info_us_header">
+            <li>
+                <i class="icon-map-pin-fill"></i>
+                <p>193 Núi thành, Q.Hải Châu, TP.Đà Nẵng</p>
+            </li>
+            <li>
+            <i class="icon-phone"></i>
+                <p>0973.66.99.81</p>
+            </li>
+        </ul>
+    </div>
+    <?php
+    $context = ob_get_contents();
+    ob_end_clean();
+    return $context;
+}
+add_shortcode('info_us_header', 'fn_info_us_header');
+
+
+/**
+ * Replace the home link URL
+ */
+add_filter( 'woocommerce_breadcrumb_home_url', 'woo_custom_breadrumb_home_url' );
+function woo_custom_breadrumb_home_url() {
+    return 'http://woocommerce.com';
+}

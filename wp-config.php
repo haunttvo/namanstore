@@ -37,6 +37,9 @@ define('DB_CHARSET', 'utf8mb4');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+/** tat chuc nang luu nhap wp */
+define ('WP_POST_REVISIONS', false);
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
