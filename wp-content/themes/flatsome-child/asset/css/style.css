@@ -108,6 +108,12 @@ input[type='submit'], input[type='submit'].button, input[type='submit']{
 .product-section-title{
     font-size: 15px;
 }
+.breadcrumbs a{
+    color: #111 !important;
+}
+a.link_choice_size{
+    text-decoration: underline;
+}
 @media (min-width:981px){
     .single.single-product .product-footer > .container > .woocommerce-tabs{
         margin-right: 24px;   
