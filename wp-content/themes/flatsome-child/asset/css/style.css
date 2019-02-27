@@ -114,6 +114,17 @@ input[type='submit'], input[type='submit'].button, input[type='submit']{
 a.link_choice_size{
     text-decoration: underline;
 }
+.cart-item .nav-dropdown{
+    min-width: 360px;
+}
+ul.product_list_widget li a:not(.remove){
+    font-size: 13px;
+}
+a.bt-contact-call{
+    display: block;
+    width: max-content;
+    margin: auto;
+}
 @media (min-width:981px){
     .single.single-product .product-footer > .container > .woocommerce-tabs{
         margin-right: 24px;   

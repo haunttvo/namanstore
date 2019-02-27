@@ -96,3 +96,42 @@ function fn_woo_choice_size() {
     echo '<a class="link_choice_size" href="#popup_choice_size"><i>Hướng dẫn chọn size</i></a>'.do_shortcode('[lightbox id="popup_choice_size" width="1200px" padding="20px"]'. apply_filters('the_content',$the_content) .'[/lightbox]');
 }    
 add_action( 'woocommerce_single_product_summary', 'fn_woo_choice_size', 25 ); 
+
+
+function fn_flat_row_post_blog($args){
+    ob_start();
+    $post_type = $args['post_type'];
+    $posts = new wp_query(array(
+        'post_type' => $post_type
+    ));
+    $posts = $posts->posts;
+?>
+<div class="row row-main">
+	<div class="large-12 col">
+		<div class="col-inner">
+            <div class="row large-columns-4 medium-columns-1 small-columns-1">
+                <?php
+                foreach ($posts as $key => $value) { ?>
+                <div class="col post-item">
+                    <div class="col-inner">
+                        <a href="<?php echo get_the_permalink($value->ID); ?>">
+                            <img src="<?php echo get_the_post_thumbnail_url($value->ID); ?>" alt="">
+                            <h5 class="post-title is-medium text-center"><?php echo $value->post_title; ?></h5>
+                        </a>   
+                        
+                    </div><!-- .col-inner -->
+                </div><!-- .col -->
+                <?php   }
+                ?>
+                
+            </div>					
+        </div><!-- .col-inner -->
+    </div><!-- .large-12 -->
+</div>
+<?php
+    $context = ob_get_contents();
+    ob_end_clean();
+    return $context;
+}
+
+add_shortcode('flat_row_post_blog', 'fn_flat_row_post_blog');

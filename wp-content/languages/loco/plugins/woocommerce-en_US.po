@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-02-25 08:54+0000\n"
+"PO-Revision-Date: 2019-02-27 02:27+0000\n"
 "Last-Translator: admin <sohuyn1996@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "X-Generator: Loco https://localise.biz/\n"
@@ -12507,7 +12507,7 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-report-stock.php:46
 msgid "No products found."
-msgstr ""
+msgstr "Không tìm thấy sản phẩm nào."
 
 #: includes/admin/reports/class-wc-report-stock.php:142
 #: includes/admin/views/html-admin-page-status-logs.php:35
@@ -21515,7 +21515,7 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:315
 msgid "No products found"
-msgstr ""
+msgstr "Không tìm thấy sản phẩm nào"
 
 #: includes/class-wc-post-types.php:316
 msgid "No products found in trash"

@@ -1,0 +1,19 @@
+2019-02-27T03:44:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_permerlink() in C:\xampp\htdocs\namanstore\wp-content\themes\flatsome-child\functions.php:117
+Stack trace:
+#0 C:\xampp\htdocs\namanstore\wp-includes\shortcodes.php(319): fn_flat_row_post_blog(Array, '', 'flat_row_post_b...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\namanstore\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(flat_r...', 'do_shortcode_ta...', '[flat_row_post_...')
+#3 C:\xampp\htdocs\namanstore\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(195): do_shortcode('[flat_row_post_...')
+#4 C:\xampp\htdocs\namanstore\wp-includes\class-wp-hook.php(286): flatsome_contentfix('[flat_row_post_...')
+#5 C:\xampp\htdocs\namanstore\wp-includes\plugin.php(203): WP_Hook->apply_filters('[flat_row_post_...', Array)
+#6 C:\xampp\htdocs\namanstore\wp-includes\post-template.php(240): apply_filters('the_content', '<p>[flat_row_po...')
+#7 C:\xampp\htdocs\namanstore\wp-content\themes\flatsome\page.php(33): the_cont in C:\xampp\htdocs\namanstore\wp-content\themes\flatsome-child\functions.php on line 117
+
+2019-02-27T07:50:34+00:00 CRITICAL Uncaught Error: Call to undefined function the_contents() in C:\xampp\htdocs\namanstore\wp-content\themes\flatsome-child\single-tut_choice_size.php:14
+Stack trace:
+#0 C:\xampp\htdocs\namanstore\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\namanstore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\namanstore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\namanstore\wp-content\themes\flatsome-child\single-tut_choice_size.php on line 14
+
