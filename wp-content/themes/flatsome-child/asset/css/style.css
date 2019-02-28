@@ -125,6 +125,9 @@ a.bt-contact-call{
     width: max-content;
     margin: auto;
 }
+.p-custom {
+    padding: 0px 5px 0px 5px !important;
+}
 @media (min-width:981px){
     .single.single-product .product-footer > .container > .woocommerce-tabs{
         margin-right: 24px;   
