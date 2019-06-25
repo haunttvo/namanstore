@@ -37,6 +37,45 @@ function sync_data_kioviet(){
 }
 add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
 
+function qg_enqueue(){
+    wp_enqueue_script('mainjs',plugin_dir_url(__FILE__).'inc/js/main.js', array());
+
+}
+add_action('admin_enqueue_scripts', 'qg_enqueue');
+
+
+add_action( 'wp_ajax_sync_data_ajax', 'sync_data_ajax' );
+add_action( 'wp_ajax_nopriv_sync_data_ajax', 'sync_data_ajax' );
+function sync_data_ajax() {
+
+    $page_size = $_POST['page_size'];
+    $arrID = $_POST['arrID'];
+    query_sync_data_by_productID($page_size, $arrID);
+    die();
+}
+
+function query_sync_data_by_productID($pagesize, $arrID){
+    $data = get_data_product($pagesize)['data'];
+    $result = [];
+    foreach ($data as $e){
+        $result[$e['masterProductId']][] = $e;
+    };
+    $arrRes = [];
+    foreach ($result as $key => $element){
+        echo "<pre>";
+        print_r($element);
+//        if(in_array($element[0]['masterProductId'], array_values($arrID) )){
+//            print_r(1);
+//            $arrRes[] = $element;
+//        }
+    }
+
+//    echo "<pre>";
+//    print_r($result);
+    die();
+}
+
+
 function get_token(){
     $curl = curl_init();
     curl_setopt_array($curl, array(

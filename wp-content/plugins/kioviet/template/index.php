@@ -39,11 +39,11 @@
     }
 
 </style>
-<?php
-//    echo "<pre>";
-//    print_r($result);
-?>
+<script type="text/javascript">
+    var adminurl = "<?php echo admin_url('admin-ajax.php'); ?>";
+</script>
 <div class="app_kioviet">
+    <button class="btn" id="sync_product">Đồng bộ</button>
     <table class="table_nt table-bordered-nt">
         <thead>
         <tr>
@@ -63,7 +63,7 @@
             ?>
             <tr>
                 <td>
-                    <input type="checkbox">
+                    <input type="checkbox" name="_productID" value="<?php echo $value[0]['id'] ?>">
                 </td>
                 <td><?php echo $value[0]['id'] ?></td>
                 <td><?php echo $value[0]['name'] ?></td>
@@ -78,7 +78,6 @@
         </tbody>
     </table>
     <?php
-//    echo get_pagination_links(30, 31, admin_url());
         pagination_custom($pg);
     ?>
 
