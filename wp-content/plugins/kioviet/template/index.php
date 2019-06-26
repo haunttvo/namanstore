@@ -1,48 +1,8 @@
-<style>
-    .app_kioviet{
-        margin-top: 20px;
-    }
-    .table_nt {
-        border-collapse: collapse;
-        width: 100%;
-        padding: 10px;
-    }
-
-    .table_nt, .table_nt th, .table_nt td {
-        text-align: left;
-        border: 1px solid #dee2e6;
-        padding: 5px;
-    }
-    .pagination_custom{
-        display: flex;
-        justify-content: center;
-    }
-    .pagination_custom li{
-        float: left;
-        border: 1px solid #dee2e6;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-    .pagination_custom li a{
-        color: #222;
-        text-decoration: none;
-        padding: 5px 10px;
-        display: inline-block;
-    }
-    .pagination_custom li a.active{
-        color: #fff;
-        background-color: #4b93ff;
-    }
-    .pagination_custom li a:hover{
-        color: #fff;
-        background-color: #4b93ff;
-    }
-
-</style>
 <script type="text/javascript">
     var adminurl = "<?php echo admin_url('admin-ajax.php'); ?>";
 </script>
 <div class="app_kioviet">
+    <h2>Danh sách sản phẩm</h2>
     <button class="btn" id="sync_product">Đồng bộ</button>
     <table class="table_nt table-bordered-nt">
         <thead>
@@ -60,20 +20,38 @@
         <tbody>
         <?php
         foreach ($result as $key => $value){
-            ?>
-            <tr>
-                <td>
-                    <input type="checkbox" name="_productID" value="<?php echo $value[0]['id'] ?>">
-                </td>
-                <td><?php echo $value[0]['id'] ?></td>
-                <td><?php echo $value[0]['name'] ?></td>
-                <td><?php echo $value[0]['categoryName'] ?></td>
-                <td><?php echo $value[0]['createdDate'] ?></td>
-                <td>
-                    <button>Sửa</button>
-                </td>
-            </tr>
-        <?php }
+            foreach ($value as $k => $vl){
+                if( empty($k) ){
+                    foreach ($vl as $ks => $vs){ ?>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="_productID" value="<?php echo $vs['id'] ?>">
+                            </td>
+                            <td><?php echo $vs['id'] ?></td>
+                            <td><?php echo $vs['name'] ?></td>
+                            <td><?php echo $vs['categoryName'] ?></td>
+                            <td><?php echo $vs['createdDate'] ?></td>
+                            <td>
+                                <button>Sửa</button>
+                            </td>
+                        </tr>
+                    <?php }
+                }else{ ?>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="_productID" value="<?php echo $vl[0]['masterProductId'] ?>">
+                        </td>
+                        <td><?php echo $vl[0]['id'] ?></td>
+                        <td><?php echo $vl[0]['name'] ?></td>
+                        <td><?php echo $vl[0]['categoryName'] ?></td>
+                        <td><?php echo $vl[0]['createdDate'] ?></td>
+                        <td>
+                            <button>Sửa</button>
+                        </td>
+                    </tr>
+                <?php }
+            }
+        }
         ?>
         </tbody>
     </table>

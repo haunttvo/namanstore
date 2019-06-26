@@ -19,6 +19,8 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
+use Automattic\WooCommerce\Client;
+
 /** The name of the database for WordPress */
 define('DB_NAME', 'naman');
 
@@ -59,6 +61,11 @@ define('LOGGED_IN_SALT',   '8!T<F}L1+mMQZ6zb9`G:=O^G;|Fx.e-tucW<#lrC/EW%:.FUPmKi
 define('NONCE_SALT',       '(0Pn)uP$Es8{|P_;OM},$}&!f(Z8pfh)Y?GuNQ5u}1/&RqeZ.zn4[ pFHgbn?81h');
 
 /**#@-*/
+
+/* woo rest api */
+
+define('CONSUMERKEY_WOO', 'ck_a92daf2209dae89fb65b6c03be1240bdcc4554e5');
+define('CONSUMERSCRET_WOO', 'cs_e787f16d5b27465fbc7cd0b22a5fcbaec17af46f');
 
 /**
  * WordPress Database Table prefix.

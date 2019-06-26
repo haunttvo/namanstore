@@ -76,7 +76,7 @@ function acf_load_field_tut_choice_size( $field ) {
     $arr_tut_size = new wp_query(array(
         'post_type' => 'tut_choice_size',
         'post_status' => 'publish'
-    ));    
+    ));
     $arr_tut_size = $arr_tut_size->posts;
     $res_field = [];
     array_unshift($res_field, '--Hướng dẫn chọn size--');
@@ -88,14 +88,14 @@ function acf_load_field_tut_choice_size( $field ) {
 }
 add_filter('acf/load_field/name=tut_choice_size', 'acf_load_field_tut_choice_size');
 
-function fn_woo_choice_size() {  
+function fn_woo_choice_size() {
     $post_id = get_the_ID();
     $id_choice_size = get_field('tut_choice_size', $post_id);
     $the_content = get_post_field( 'post_content', $id_choice_size);
     if( !empty($id_choice_size) || $id_choice_size != 0 )
     echo '<a class="link_choice_size" href="#popup_choice_size"><i>Hướng dẫn chọn size</i></a>'.do_shortcode('[lightbox id="popup_choice_size" width="1200px" padding="20px"]'. apply_filters('the_content',$the_content) .'[/lightbox]');
-}    
-add_action( 'woocommerce_single_product_summary', 'fn_woo_choice_size', 25 ); 
+}
+add_action( 'woocommerce_single_product_summary', 'fn_woo_choice_size', 25 );
 
 
 function fn_flat_row_post_blog($args){
@@ -117,14 +117,14 @@ function fn_flat_row_post_blog($args){
                         <a href="<?php echo get_the_permalink($value->ID); ?>">
                             <img src="<?php echo get_the_post_thumbnail_url($value->ID); ?>" alt="">
                             <h5 class="post-title is-medium text-center"><?php echo $value->post_title; ?></h5>
-                        </a>   
-                        
+                        </a>
+
                     </div><!-- .col-inner -->
                 </div><!-- .col -->
                 <?php   }
                 ?>
-                
-            </div>					
+
+            </div>
         </div><!-- .col-inner -->
     </div><!-- .large-12 -->
 </div>
@@ -135,3 +135,9 @@ function fn_flat_row_post_blog($args){
 }
 
 add_shortcode('flat_row_post_blog', 'fn_flat_row_post_blog');
+
+require __DIR__ . '/vendor/autoload.php';
+use Automattic\WooCommerce\Client;
+
+
+
