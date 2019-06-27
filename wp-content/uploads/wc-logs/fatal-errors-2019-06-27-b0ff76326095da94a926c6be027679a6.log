@@ -1,0 +1,12 @@
+2019-06-27T02:02:58+00:00 CRITICAL Object of class DateTime could not be converted to string in D:\wamp64\www\namanstore\wp-content\plugins\kioviet\template\categories.php on line 22
+
+2019-06-27T02:05:15+00:00 CRITICAL Uncaught Error: Call to a member function format() on boolean in D:\wamp64\www\namanstore\wp-content\plugins\kioviet\template\categories.php:22
+Stack trace:
+#0 D:\wamp64\www\namanstore\wp-content\plugins\kioviet\kioviet.php(45): require_once()
+#1 D:\wamp64\www\namanstore\wp-includes\class-wp-hook.php(286): sync_cagegories('')
+#2 D:\wamp64\www\namanstore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\wamp64\www\namanstore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\wamp64\www\namanstore\wp-admin\admin.php(224): do_action('kioviet_page_sy...')
+#5 {main}
+  thrown in D:\wamp64\www\namanstore\wp-content\plugins\kioviet\template\categories.php on line 22
+

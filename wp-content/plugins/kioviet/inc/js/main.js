@@ -41,4 +41,22 @@ jQuery(document).ready(function($){
             }
         }
     };
+    $('#sync_categories').click(function(){
+        let arrID = [];
+        $.each($('input[name="_productID"]:checked'), function(){
+            arrID.push($(this).val());
+        });
+        $.ajax({
+            type: 'post',
+            dataType: 'json',
+            url: adminurl,
+            data: {
+                action: 'sync_categories_ajax',
+                arrID: arrID
+            },
+            success: function(response){
+                console.log(response);
+            }
+        });
+    });
 });

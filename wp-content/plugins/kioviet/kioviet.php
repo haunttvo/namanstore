@@ -38,10 +38,15 @@ function sync_data_kioviet(){
         print_r($e);
     }
 }
+function init_config_woo_api(){
+
+}
 function sync_cagegories(){
     try{
         if( !empty($_SESSION['token_kioviet']) ){
-            get_list_categories();
+            $arr_categories = get_list_categories();
+//            echo "<pre>";
+//            print_r($arr_categories['data']);
             require_once 'template/categories.php';
         }else{
             get_token();
@@ -68,6 +73,17 @@ function sync_data_ajax() {
     query_sync_data_by_productID($page_size, $arrID);
     die();
 }
+
+add_action( 'wp_ajax_sync_categories_ajax', 'sync_categories_ajax' );
+add_action( 'wp_ajax_nopriv_sync_categories_ajax', 'sync_categories_ajax' );
+function sync_categories_ajax() {
+    $arrID = $_POST['arrID'];
+    echo 1;
+    die();
+}
+
+
+
 
 function query_sync_data_by_productID($pagesize, $arrID){
     global $post, $woocommerce, $product;
@@ -165,13 +181,9 @@ function get_data_product($page_size = 1){
 }
 
 function get_list_categories(){
-    init_curl_get_api_kioviet();
-}
-
-function init_curl_get_api_kioviet($params = '', $methods = 'GET'){
     $curl = curl_init();
     curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://public.kiotapi.com/categories?format=json&includeRemoveIds=true&pageSize=100&currentItem=0&orderBy=categoryName&orderDirection=desc&hierachicalData=true&lastModifiedFrom=%222018-08-01%22",
+        CURLOPT_URL => "https://public.kiotapi.com/categories?format=json&includeRemoveIds=true&pageSize=100&currentItem=0&orderBy=categoryName&orderDirection=desc&hierachicalData=true",
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
