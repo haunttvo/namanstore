@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cdc6c59-b10d-4b60-9e17-a8ef966218e0" name="Default Changelist" comment="">
+    <list default="true" id="789ddc67-36a8-441a-9991-c8a8c4bff798" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kioviet/inc/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/kioviet/inc/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kioviet/kioviet.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/kioviet/kioviet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/kioviet/template/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/kioviet/template/categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/woocommerce-placeholder-280x280.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/woocommerce-placeholder-280x280.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/woocommerce-placeholder-400x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/woocommerce-placeholder-400x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/woocommerce-placeholder-768x768.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/woocommerce-placeholder-768x768.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/woocommerce-placeholder-800x800.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/woocommerce-placeholder-800x800.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,51 +25,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kioviet/kioviet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-              <folding>
-                <element signature="e#6#190#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kioviet/template/categories.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kioviet/template/index.php">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="2" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kioviet/inc/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="45" />
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,24 +66,24 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/kioviet/inc/main.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/kioviet/template/index.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/kioviet/template/terms.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/kioviet/template/categories.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/kioviet/inc/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/kioviet/kioviet.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kioviet/template/categories.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
     <option name="width" value="1400" />
-    <option name="height" value="990" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -128,67 +92,18 @@
               <item name="namanstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="namanstore" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="namanstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namanstore" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namanstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namanstore" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namanstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namanstore" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="kioviet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namanstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namanstore" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="kioviet" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namanstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namanstore" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="kioviet" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namanstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namanstore" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="kioviet" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namanstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namanstore" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="yith-woocommerce-wishlist" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/NTHTVO/sails-project" />
+    <property name="last_opened_file_path" value="D:/PROJECT/ebirthday.messageportal" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -214,7 +129,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1cdc6c59-b10d-4b60-9e17-a8ef966218e0" name="Default Changelist" comment="" />
+      <changelist id="789ddc67-36a8-441a-9991-c8a8c4bff798" name="Default Changelist" comment="" />
       <created>1561340988861</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -229,24 +144,26 @@
       <workItem from="1561535117307" duration="1328000" />
       <workItem from="1561537088513" duration="4456000" />
       <workItem from="1561600175277" duration="3500000" />
+      <workItem from="1561733021107" duration="598000" />
+      <workItem from="1561778953995" duration="37000" />
+      <workItem from="1565493111089" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44837000" />
+    <option name="totallyTimeSpent" value="46513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1663113" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -257,8 +174,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14046822" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36566332" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,8 +225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="-323">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -319,13 +237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kioviet/template/categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/kioviet/inc/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -333,13 +244,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kioviet/template/categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/kioviet/kioviet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="474">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="e#6#190#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

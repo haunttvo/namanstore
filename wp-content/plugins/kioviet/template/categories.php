@@ -32,7 +32,6 @@
                 if(!empty($value['children'])){
                     each_child_items($value['children']);
                 }
-
             }
         ?>
         </tbody>
